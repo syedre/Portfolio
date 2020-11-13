@@ -1,0 +1,301 @@
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url('https://fonts.googleapis.com/css?family=Helvetica+Neue:400|Segoe+UI:400,700');
+* {
+  box-sizing: border-box;
+}
+.auto-news-home {
+  background-color: white;
+  height: 100vh;
+  margin: 0px;
+  min-height: 1080px;
+  min-width: 1080px;
+  position: relative;
+  width: 100%;
+}
+.auto-news-home .asset-14 {
+  background-color: transparent;
+  height: calc(100.00% - 44px);
+  left: 8px;
+  position: absolute;
+  top: 22px;
+  width: 61px;
+}
+.auto-news-home .asset-15 {
+  background-color: transparent;
+  bottom: calc(48.28% - 12px);
+  height: 25px;
+  position: absolute;
+  right: 13px;
+  width: 208px;
+}
+.auto-news-home .blog {
+  background-color: transparent;
+  font-size: 15px;
+  height: 22px;
+  left: 33px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: calc(44.00% - 10px);
+  white-space: nowrap;
+  width: 3.06%;
+}
+.auto-news-home .component-2-1 {
+  background-color: white;
+  border-radius: 5px;
+  height: 83px;
+  left: 18px;
+  position: absolute;
+  top: 14px;
+  width: 303px;
+}
+.auto-news-home .component-3-1 {
+  background-color: transparent;
+  height: 52px;
+  position: absolute;
+  right: 60px;
+  top: 30px;
+  width: 9.99%;
+}
+.auto-news-home .forum {
+  background-color: transparent;
+  font-size: 15px;
+  height: 22px;
+  left: 33px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: calc(41.16% - 9px);
+  white-space: nowrap;
+  width: 4.26%;
+}
+.auto-news-home .group-1 {
+  background-color: transparent;
+  height: 70px;
+  left: 229px;
+  position: absolute;
+  top: 173px;
+  width: calc(100.00% - 229px);
+}
+.auto-news-home .home {
+  background-color: transparent;
+  font-size: 15px;
+  height: 22px;
+  left: 34px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: 310px;
+  white-space: nowrap;
+  width: 4.17%;
+}
+.auto-news-home .icon-awesome-search {
+  background-color: transparent;
+  height: 20px;
+  left: 41px;
+  position: absolute;
+  top: 195px;
+  width: 2.13%;
+}
+.auto-news-home .industry {
+  background-color: transparent;
+  color: black;
+  font-size: 28px;
+  height: 33px;
+  left: calc(47.26% - 48px);
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: 102px;
+}
+.auto-news-home .latest {
+  background-color: transparent;
+  font-size: 30px;
+  height: 42px;
+  left: 60px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 5px;
+  white-space: nowrap;
+  width: 94px;
+}
+.auto-news-home .line-2 {
+  background-color: transparent;
+  bottom: 0px;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+.auto-news-home .log-in {
+  background-color: transparent;
+  font-size: 28px;
+  height: 39px;
+  left: calc(150.79% - 157px);
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  top: 5px;
+  width: 104px;
+}
+.auto-news-home .motorsports {
+  background-color: transparent;
+  color: black;
+  font-size: 28px;
+  height: 33px;
+  line-height: 28px;
+  position: absolute;
+  right: 32px;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: 150px;
+}
+.auto-news-home .new-launches {
+  background-color: transparent;
+  font-size: 15px;
+  height: 22px;
+  left: 34px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: calc(32.66% - 7px);
+  white-space: nowrap;
+  width: 9.26%;
+}
+.auto-news-home .path-1 {
+  background-color: transparent;
+  height: 107px;
+  left: 0px;
+  position: absolute;
+  top: -1px;
+  width: 100%;
+}
+.auto-news-home .rectangle-3 {
+  background-color: var(--flamingo);
+  border-radius: 5px;
+  height: 5px;
+  left: 34px;
+  position: absolute;
+  top: 328px;
+  width: 4.64%;
+}
+.auto-news-home .rectangle-4 {
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+  left: 0px;
+  opacity: 0.8;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% + 17px);
+}
+.auto-news-home .rectangle-5 {
+  background-color: transparent;
+  border-radius: 30px;
+  height: 47px;
+  left: 34px;
+  position: absolute;
+  top: 0px;
+  width: 134px;
+}
+.auto-news-home .rectangle-6 {
+  background-color: transparent;
+  border-radius: 32px;
+  height: 43px;
+  left: 24px;
+  opacity: 0.63;
+  position: absolute;
+  top: 185px;
+  width: 13.84%;
+}
+.auto-news-home .reviews {
+  background-color: transparent;
+  font-size: 15px;
+  height: 22px;
+  left: 34px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: calc(35.49% - 8px);
+  white-space: nowrap;
+  width: 5.19%;
+}
+.auto-news-home .shop {
+  background-color: transparent;
+  font-size: 15px;
+  height: 22px;
+  left: 34px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: calc(38.33% - 8px);
+  white-space: nowrap;
+  width: 3.43%;
+}
+.auto-news-home .sign-up {
+  background-color: transparent;
+  color: white;
+  font-size: 26px;
+  height: 29px;
+  line-height: 26px;
+  position: absolute;
+  right: 196px;
+  text-align: left;
+  top: 40px;
+  white-space: nowrap;
+  width: 5.24%;
+}
+.auto-news-home .technology {
+  background-color: transparent;
+  color: black;
+  font-size: 28px;
+  height: 33px;
+  line-height: 28px;
+  position: absolute;
+  right: calc(29.34% - 42px);
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: 144px;
+}
+.auto-news-home .trending {
+  background-color: transparent;
+  color: black;
+  font-size: 28px;
+  height: 33px;
+  left: calc(26.58% - 29px);
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: 111px;
+}
+.border-class-1 {
+  border: 1px solid rgba(0,0,0,1.0);
+}
+.font-class-1 {
+  color: black;
+  font-family: 'SegoeUI-Semibold', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-class-2 {
+  font-family: 'HelveticaNeue-Regular', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-class-3 {
+  color: black;
+  font-family: 'SegoeUI-Bold', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 700;
+}
+:root {
+  --flamingo: rgba(242,106,44,1.0);
+}

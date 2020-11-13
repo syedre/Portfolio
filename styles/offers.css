@@ -1,0 +1,911 @@
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:400,500');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:400,500');
+* {
+  box-sizing: border-box;
+}
+.border-class-1 {
+  border: 1px solid var(--bon-jour);
+}
+.border-class-2 {
+  border: 1px solid var(--silver);
+}
+.font-class-1 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.font-class-2 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+}
+.font-class-3 {
+  font-family: 'OpenSans-Regular', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-class-4 {
+  font-family: 'OpenSans-SemiBold', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 600;
+}
+.font-class-5 {
+  color: var(--heavy-metal);
+  font-family: 'Open Sans', Helvetica, Arial, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.offers {
+  align-items: flex-start;
+  background-color: white;
+  display: flex;
+  flex-direction: column; 
+  height: auto;
+  /* justify-content: flex-start; */
+  /* min-height: 2379px; */
+  /* overflow: hidden; */
+  width:auto;
+}
+.offers .about-us {
+  background-color: transparent;
+  bottom: calc(47.20% - 14px);
+  color: black;
+  font-size: 20px;
+  height: 29px;
+  line-height: 20px;
+  position: absolute;
+  right: calc(40.12% - 35px);
+  text-align: left;
+  white-space: nowrap;
+  width: 88px;
+}
+.offers .all-cars {
+  background-color: transparent;
+  bottom: 14px;
+  color: var(--heavy-metal);
+  font-size: 16px;
+  height: 24px;
+  left: calc(37.82% - 27px);
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 72px;
+}
+.offers .auto-flex-010lcc {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: 56px;
+  min-height: 1864px;
+  width: 519px;
+}
+.offers .auto-flex1-010lcc {
+  align-items: flex-start;
+  align-self: flex-end;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: 56px;
+  min-height: 1832px;
+  width: 558px;
+}
+.offers .auto-flex2-xrX2iP {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 1864px;
+  justify-content: flex-start;
+  min-width: 1264px;
+  width: auto;
+}
+.offers .auto-flex3-PbWALd {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 60px;
+  justify-content: flex-start;
+  min-width: 520px;
+  width: auto;
+}
+.offers .auto-flex4-xrX2iP {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: 16px;
+  min-height: 1832px;
+  width: 520px;
+}
+.offers .auto-flex5-C61RwL {
+  align-items: flex-end;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 1864px;
+  justify-content: flex-start;
+  margin-left: 22px;
+  margin-top: 80px;
+  min-width: 1800px;
+  width: auto;
+}
+.offers .benefits-f--customers {
+  background-color: transparent;
+  bottom: 126px;
+  color: var(--gray);
+  height: 28px;
+  left: 25px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 300px;
+}
+.offers .compare {
+  background-color: transparent;
+  bottom: 14px;
+  color: var(--heavy-metal);
+  font-size: 16px;
+  height: 24px;
+  left: calc(30.48% - 23px);
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 76px;
+}
+.offers .component-2-3 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 168px;
+  position: relative;
+  width: 1920px;
+}
+.offers .component-3-3 {
+  background-color: rgba(245,245,245,1.0);
+  flex-shrink: 0;
+  height: 136px;
+  margin-top: 132px;
+  position: relative;
+  width: 1920px;
+}
+.offers .component-4-3 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 525px;
+  margin-top: 62.5px;
+  position: relative;
+  width: 75px;
+}
+.offers .component-59- {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 823px;
+  margin-top: 76px;
+  position: relative;
+  width: 519px;
+}
+.offers .component-59-1 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 823px;
+  margin-top: 106px;
+  position: relative;
+  width: 519px;
+}
+.offers .component-59-2 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 823px;
+  margin-top: 50px;
+  position: relative;
+  width: 519px;
+}
+.offers .component-59-3 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 823px;
+  margin-left: 1px;
+  margin-top: 76px;
+  position: relative;
+  width: 519px;
+}
+.offers .component-59-4 {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 823px;
+  margin-left: 1px;
+  margin-top: 50px;
+  position: relative;
+  width: 519px;
+}
+.offers .contests {
+  background-color: transparent;
+  bottom: 14px;
+  color: var(--heavy-metal);
+  font-size: 16px;
+  height: 24px;
+  line-height: 16px;
+  position: absolute;
+  right: calc(39.46% - 32px);
+  text-align: left;
+  white-space: nowrap;
+  width: 80px;
+}
+.offers .ex-showroom-benefits {
+  background-color: transparent;
+  bottom: calc(27.92% - 8px);
+  color: var(--gray);
+  height: 28px;
+  left: 25px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 203px;
+}
+.offers .faq {
+  background-color: transparent;
+  bottom: calc(47.20% - 14px);
+  color: black;
+  font-size: 20px;
+  height: 29px;
+  line-height: 20px;
+  position: absolute;
+  right: calc(22.07% - 9px);
+  text-align: left;
+  white-space: nowrap;
+  width: 40px;
+}
+.offers .favorites {
+  background-color: transparent;
+  bottom: 14px;
+  color: var(--heavy-metal);
+  font-size: 16px;
+  height: 24px;
+  line-height: 16px;
+  position: absolute;
+  right: calc(46.25% - 38px);
+  text-align: left;
+  white-space: nowrap;
+  width: 82px;
+}
+.offers .filter-by- {
+  background-color: transparent;
+  color: var(--sonic-silver);
+  font-size: 15px;
+  height: auto;
+  left: 19px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: 22px;
+  white-space: nowrap;
+  width: auto;
+}
+.offers .filter-by-model {
+  background-color: transparent;
+  color: var(--sonic-silver);
+  font-size: 15px;
+  height: auto;
+  left: 22px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: 22px;
+  white-space: nowrap;
+  width: auto;
+}
+.offers .finance {
+  background-color: transparent;
+  bottom: 14px;
+  color: var(--heavy-metal);
+  font-size: 16px;
+  height: 24px;
+  left: calc(23.27% - 16px);
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 68px;
+}
+.offers .group-4 {
+  background-color: transparent;
+  height: 22px;
+  position: absolute;
+  right: 56px;
+  top: calc(29.55% - 7px);
+  width: 31px;
+}
+.offers .home {
+  background-color: transparent;
+  bottom: 14px;
+  height: 24px;
+  left: 200px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 51px;
+}
+.offers .icarrowdropdown24px {
+  background-color: transparent;
+  height: 7px;
+  left: 221px;
+  position: absolute;
+  top: 27px;
+  width: 13px;
+}
+.offers .icarrowdropdown24px-9bxjj2 {
+  background-color: transparent;
+  height: 7px;
+  left: 218px;
+  position: absolute;
+  top: 27px;
+  width: 13px;
+}
+.offers .icon-aweso--instagram {
+  background-color: transparent;
+  height: 32px;
+  left: calc(48.30% - 15px);
+  position: absolute;
+  top: calc(34.65% - 11px);
+  width: 32px;
+}
+.offers .icon-aweso-e-facebook {
+  background-color: transparent;
+  height: 35px;
+  left: calc(47.35% - 17px);
+  position: absolute;
+  top: 17px;
+  width: 35px;
+}
+.offers .icon-aweso-e-whatsapp {
+  background-color: transparent;
+  bottom: calc(34.95% - 11px);
+  height: 32px;
+  left: calc(48.28% - 15px);
+  position: absolute;
+  width: 32px;
+}
+.offers .icon-aweso-inkedin-in {
+  background-color: transparent;
+  height: 31px;
+  left: calc(48.28% - 15px);
+  position: absolute;
+  top: calc(48.63% - 15px);
+  width: 32px;
+}
+.offers .icon-awesome-circle-RHXHj2 {
+  background-color: transparent;
+  height: 5px;
+  position: absolute;
+  right: calc(20.42% - 1px);
+  top: calc(48.85% - 2px);
+  width: 5px;
+}
+.offers .icon-awesome-circle-Y9Kxwt {
+  background-color: transparent;
+  height: 5px;
+  position: absolute;
+  right: calc(37.13% - 2px);
+  top: calc(47.33% - 2px);
+  width: 5px;
+}
+.offers .icon-awesome-circle-xlk8p7 {
+  background-color: transparent;
+  height: 5px;
+  position: absolute;
+  right: calc(25.12% - 1px);
+  top: calc(48.85% - 2px);
+  width: 5px;
+}
+.offers .icon-awesome-twitter {
+  background-color: transparent;
+  height: 29px;
+  left: calc(46.15% - 17px);
+  position: absolute;
+  top: calc(18.56% - 5px);
+  width: 36px;
+}
+.offers .icon-awesome-youtube {
+  background-color: transparent;
+  bottom: calc(20.08% - 5px);
+  height: 27px;
+  left: calc(46.45% - 18px);
+  position: absolute;
+  width: 38px;
+}
+.offers .icon-zocial-call {
+  background-color: transparent;
+  bottom: 21px;
+  height: 29px;
+  left: calc(47.61% - 14px);
+  position: absolute;
+  width: 29px;
+}
+.offers .image-4 {
+  background-color: transparent;
+  height: 179.63%;
+  left: 0px;
+  position: absolute;
+  top: -70.37%;
+  width: 101.56%;
+}
+.offers .innova-crysta {
+  background-color: transparent;
+  bottom: calc(47.21% - 17px);
+  color: var(--gray);
+  height: 35px;
+  left: calc(6.59% - 10px);
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 155px;
+}
+.offers .insurance {
+  background-color: transparent;
+  bottom: 14px;
+  color: var(--heavy-metal);
+  font-size: 16px;
+  height: 24px;
+  left: calc(45.63% - 41px);
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 90px;
+}
+.offers .line-1 {
+  background-color: transparent;
+  height: 4px;
+  left: -2px;
+  position: absolute;
+  top: -2px;
+  width: calc(100.00% + 4px);
+}
+.offers .line-2 {
+  background-color: transparent;
+  height: 4px;
+  left: -2px;
+  position: absolute;
+  top: calc(50.00% - 2px);
+  width: calc(100.00% + 4px);
+}
+.offers .line-3 {
+  background-color: transparent;
+  bottom: -2px;
+  height: 4px;
+  left: -2px;
+  position: absolute;
+  width: calc(100.00% + 4px);
+}
+.offers .line-79 {
+  background-color: transparent;
+  height: 3px;
+  left: 2px;
+  position: absolute;
+  top: 30px;
+  width: 76px;
+}
+.offers .line-89 {
+  background-color: transparent;
+  bottom: 33.33%;
+  height: 1px;
+  left: 4px;
+  position: absolute;
+  width: calc(100.00% - 6px);
+}
+.offers .mask-group-1 {
+  background-color: transparent;
+  bottom: calc(45.12% - 24px);
+  height: 54px;
+  overflow: hidden;
+  position: absolute;
+  right: 190px;
+  width: 64px;
+}
+.offers .offers-WMKwtv {
+  background-color: transparent;
+  bottom: 14px;
+  color: var(--heavy-metal);
+  font-size: 16px;
+  height: 24px;
+  left: 309px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 59px;
+}
+.offers .offers-YRFi1o {
+  background-color: transparent;
+  color: rgba(2,2,2,1.0);
+  font-size: 25px;
+  height: auto;
+  left: 0px;
+  line-height: 25px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.offers .offers-dec-ke-2-lines {
+  background-color: transparent;
+  bottom: calc(40.70% - 22px);
+  color: var(--mountain-mist);
+  height: 54px;
+  left: 25px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 62px);
+}
+.offers .other-benefits {
+  background-color: transparent;
+  bottom: 78px;
+  color: var(--gray);
+  height: 28px;
+  left: 25px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 128px;
+}
+.offers .overlap-group-635rjs {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 36px;
+  margin-left: 49px;
+  position: relative;
+  width: 78px;
+}
+.offers .overlap-group1-I6N9ju {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 60px;
+  margin-left: 19px;
+  position: relative;
+  width: 250px;
+}
+.offers .overlap-group2-I6N9ju {
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 60px;
+  position: relative;
+  width: 251px;
+}
+.offers .overlap-group3-Sny5Xh {
+  align-self: flex-end;
+  background-color: transparent;
+  flex-shrink: 0;
+  height: 60px;
+  position: relative;
+  width: 251px;
+}
+.offers .ownacarlogo-opt-02-WMKwtv {
+  background-color: transparent;
+  height: 50px;
+  left: 53px;
+  position: absolute;
+  top: calc(24.58% - 12px);
+  width: 242px;
+}
+.offers .ownacarlogo-opt-02-Y9Kxwt {
+  background-color: transparent;
+  height: 50px;
+  left: 87px;
+  position: absolute;
+  top: calc(50.00% - 25px);
+  width: 242px;
+}
+.offers .path-731 {
+  background-color: transparent;
+  height: 68px;
+  left: 2px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 2px);
+}
+.offers .path-734 {
+  background-color: transparent;
+  height: 108px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.offers .rectangle-283 {
+  background-color: rgba(29,161,242,1.0);
+  height: 68px;
+  left: 2px;
+  position: absolute;
+  top: 77px;
+  width: calc(100.00% - 2px);
+}
+.offers .rectangle-284 {
+  background-color: rgba(225,48,108,1.0);
+  height: 68px;
+  left: 2px;
+  position: absolute;
+  top: calc(33.48% - 23px);
+  width: calc(100.00% - 2px);
+}
+.offers .rectangle-285 {
+  background-color: rgba(0,119,181,1.0);
+  height: 68px;
+  left: 0px;
+  position: absolute;
+  top: calc(49.89% - 34px);
+  width: calc(100.00% - 2px);
+}
+.offers .rectangle-286 {
+  background-color: rgba(37,211,102,1.0);
+  bottom: calc(33.70% - 23px);
+  height: 68px;
+  left: 0px;
+  position: absolute;
+  width: calc(100.00% - 2px);
+}
+.offers .rectangle-287 {
+  background-color: rgba(255,0,0,1.0);
+  bottom: calc(17.29% - 12px);
+  height: 68px;
+  left: 0px;
+  position: absolute;
+  width: calc(100.00% - 2px);
+}
+.offers .rectangle-288 {
+  background-color: rgba(97,94,91,1.0);
+  bottom: 0px;
+  height: 68px;
+  left: 0px;
+  position: absolute;
+  width: calc(100.00% - 2px);
+}
+.offers .rectangle-3 {
+  background-color: white;
+  border-radius: 6px;
+  height: 50px;
+  left: calc(47.92% - 413px);
+  position: absolute;
+  top: calc(24.58% - 12px);
+  width: 862px;
+}
+.offers .rectangle-37 {
+  background-color: white;
+  border-radius: 7px;
+  height: 60px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 251px;
+}
+.offers .rectangle-370 {
+  background-color: white;
+  border-radius: 7px;
+  height: 60px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 250px;
+}
+.offers .rectangle-373 {
+  background-color: transparent;
+  border-radius: 8px;
+  height: calc(100.00% + 15px);
+  left: -2px;
+  position: absolute;
+  top: -2px;
+  width: calc(100.00% + 14px);
+}
+.offers .rectangle-374 {
+  background-color: var(--flamingo);
+  border-radius: 8px;
+  bottom: 0px;
+  height: 68px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+.offers .rectangle-5 {
+  background-color: transparent;
+  bottom: -18px;
+  height: 90px;
+  left: -15px;
+  position: absolute;
+  width: calc(100.00% + 30px);
+}
+.offers .screenshot- {
+  background-color: transparent;
+  border-radius: 11px;
+  height: 356px;
+  left: 3px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 6px);
+}
+.offers .search-for-irbags-etc {
+  background-color: transparent;
+  color: var(--pumice);
+  font-size: 16px;
+  height: 24px;
+  left: calc(31.81% - 76px);
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: calc(31.94% - 8px);
+  white-space: nowrap;
+  width: 238px;
+}
+.offers .shop {
+  background-color: transparent;
+  bottom: 14px;
+  color: var(--heavy-metal);
+  font-size: 16px;
+  height: 24px;
+  line-height: 16px;
+  position: absolute;
+  right: calc(32.43% - 15px);
+  text-align: left;
+  white-space: nowrap;
+  width: 45px;
+}
+.offers .sitemap {
+  background-color: transparent;
+  bottom: calc(47.20% - 14px);
+  color: black;
+  font-size: 20px;
+  height: 29px;
+  line-height: 20px;
+  position: absolute;
+  right: 282px;
+  text-align: left;
+  white-space: nowrap;
+  width: 78px;
+}
+.offers .terms-conditions {
+  background-color: transparent;
+  bottom: calc(47.20% - 14px);
+  color: black;
+  font-size: 20px;
+  height: 29px;
+  line-height: 20px;
+  position: absolute;
+  right: calc(28.86% - 53px);
+  text-align: left;
+  white-space: nowrap;
+  width: 184px;
+}
+.offers .total-benefits {
+  background-color: transparent;
+  bottom: 14px;
+  color: white;
+  height: 35px;
+  left: 16px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 156px;
+}
+.offers .toyota {
+  background-color: transparent;
+  color: var(--flamingo);
+  height: 35px;
+  left: 25px;
+  position: absolute;
+  text-align: left;
+  top: calc(47.59% - 17px);
+  white-space: nowrap;
+  width: 77px;
+}
+.offers .us-english {
+  background-color: transparent;
+  bottom: 14px;
+  color: var(--heavy-metal);
+  font-size: 16px;
+  height: 24px;
+  line-height: 16px;
+  position: absolute;
+  right: 172px;
+  text-align: left;
+  white-space: nowrap;
+  width: 93px;
+}
+.offers .vehicle-ex-ange-bonus {
+  background-color: transparent;
+  bottom: calc(21.89% - 6px);
+  color: var(--gray);
+  height: 28px;
+  left: 25px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 220px;
+}
+.offers .x10000-inr {
+  background-color: transparent;
+  bottom: calc(27.92% - 8px);
+  color: var(--gray);
+  height: 28px;
+  position: absolute;
+  right: 21px;
+  text-align: left;
+  white-space: nowrap;
+  width: 99px;
+}
+.offers .x10000-inr-xy6u9V {
+  background-color: transparent;
+  bottom: 78px;
+  color: var(--gray);
+  height: 28px;
+  position: absolute;
+  right: 21px;
+  text-align: left;
+  white-space: nowrap;
+  width: 99px;
+}
+.offers .x10000-inr-xy6u9V {
+  background-color: transparent;
+  bottom: 126px;
+  color: var(--gray);
+  height: 28px;
+  position: absolute;
+  right: 21px;
+  text-align: left;
+  white-space: nowrap;
+  width: 99px;
+}
+.offers .x10000-inr-xy6u9V {
+  background-color: transparent;
+  bottom: calc(21.89% - 6px);
+  color: var(--gray);
+  height: 28px;
+  position: absolute;
+  right: 21px;
+  text-align: left;
+  white-space: nowrap;
+  width: 99px;
+}
+.offers .x40000-inr {
+  background-color: transparent;
+  bottom: 11px;
+  color: white;
+  height: 35px;
+  position: absolute;
+  right: 21px;
+  text-align: left;
+  white-space: nowrap;
+  width: 125px;
+}
+:root {
+  --bon-jour: rgba(234,223,223,1.0);
+  --flamingo: rgba(239,80,48,1.0);
+  --gray: rgba(144,144,144,1.0);
+  --heavy-metal: rgba(45,45,45,1.0);
+  --mountain-mist: rgba(150,150,150,1.0);
+  --pumice: rgba(201,201,201,1.0);
+  --silver: rgba(191,190,190,1.0);
+  --sonic-silver: rgba(114,114,114,1.0);
+}

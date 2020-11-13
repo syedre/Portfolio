@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+  }
+
+.row{
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+  
+  }
+
+.bo{
+    height: 100px;
+    width: 10%;
+}
+
