@@ -47,7 +47,7 @@ export default function Off () {
   return(
     <>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-    <div style={{background:""}} >
+    <div className="backimg" >
     <Aoo/>
 
     
@@ -68,7 +68,7 @@ export default function Off () {
   <a href="#" className="youtube"><i className="fa fa-youtube"></i></a></div>
   <section class="section">
     <div class="container">
-      <div class="columns ml-6">
+      <div class="columns ml-6 mt-5">
         <div class={view}>
           <div class="">
         <div class="card">
@@ -87,7 +87,7 @@ export default function Off () {
                 <p>My name is Syed Rehan Ahmed</p>
                 <p>I am React js Developer</p><br/>
                 <p>I am living in Bangalore</p>
-                <button class="button is-link is-light ml-6 mb-2 " onClick={fishy}>View More</button>
+                <button class="button is-outlined  ml-6 mb-2 " onClick={fishy}>View More</button>
               </div>
         </div> 
         </div>
@@ -112,7 +112,7 @@ export default function Off () {
                 <p>S J B institute of technology</p>
                 <p>Cambridge PU college</p><br/>
                 <p>Cambridge Public School</p>
-                <button class="button is-link is-light ml-6 mb-2 " onClick={fishy1} >View More</button>
+                <button class="button is-outlined ml-6 mb-2 " onClick={fishy1} >View More</button>
               </div>
         </div>
         </div>
@@ -136,9 +136,9 @@ export default function Off () {
               </div>
               <div class="content " >
                 <p>Html,css,Javascript</p>
-                <p>React js,Next js</p><br/>
+                <p>React js,Next js,Python</p><br/>
                 <p>Aws,Docker</p>
-                <button class="button is-link is-light ml-6 mb-2 " onClick={fishy2}>View More</button>
+                <button class="button is-outlined ml-6 mb-2 " onClick={fishy2}>View More</button>
               </div>
         </div> 
         </div>
@@ -170,16 +170,21 @@ export default function Off () {
    
 
   </section>
-  <div>
+  <div class="column is-5 is-offset-3 is-hidden">
+    <div class="box">
+      <div class="content">
+        <h4 class="subtitle is-4">Projects</h4>
+      </div>
+    </div>
+
 
   </div>
   </div>
-  <div class="columns is-gapless ">
-    <div class="column is-4 ">
-      <div class="box"></div>
-    </div>
-    <div class="column is-4"><div class="box"></div></div>
-  </div>
+  
+
+  <footer class="footer">
+    <p>dfvsdgfdrsgtdg</p>
+  </footer>
        
     </>
   )

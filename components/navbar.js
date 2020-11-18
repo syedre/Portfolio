@@ -2,9 +2,9 @@ import React from 'react';
 export default function Aoo () {
     return(
       <>
-        <nav class="navbar is-medium " role="navigation" aria-label="main navigation">
+        <nav class="navbar   " role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    
+
 
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
@@ -20,7 +20,7 @@ export default function Aoo () {
       </a>
 
       <a class="navbar-item">
-        Documentation
+        Resume
       </a>
 
       <div class="navbar-item has-dropdown is-hoverable">
