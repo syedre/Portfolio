@@ -1,8 +1,9 @@
+import Link from 'next/link';
 import React from 'react';
 export default function Aoo () {
     return(
       <>
-        <nav class="navbar   " role="navigation" aria-label="main navigation">
+        <nav class="navbar  " role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
 
 
@@ -16,11 +17,11 @@ export default function Aoo () {
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
       <a class="navbar-item">
-        Home
+       <Link href="/new"> Home</Link>
       </a>
 
-      <a class="navbar-item">
-        Resume
+     <a class="navbar-item">
+        <Link href="/resume">Resume</Link>
       </a>
 
       <div class="navbar-item has-dropdown is-hoverable">

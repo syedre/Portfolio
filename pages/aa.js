@@ -18,6 +18,9 @@ export default function Aoo () {
               
             );
           })}
+
+<iframe src="/syedrehan.pdf" >
+</iframe>
         
       
         

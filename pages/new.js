@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import Link from 'next/link';
 import Aoo from '../components/navbar';
 
 export default function Off () {
@@ -7,10 +8,17 @@ export default function Off () {
   const[view2,setSkills]=useState('column is-3 is-offset-1');
   const[box,setBox]=useState('is-hidden');
   const[abot,setAbout]=useState(['About Me','Rehannnnnnnnnnnnnnnnnnnnnnnn','fdfdfdffsddddddddddsdssdsd'])
+  const [na,setName]=useState([]);
+  const[isvis,setVis]=useState('is-hidden');
+
   
 
+ function submit(){
+   setVis('');
+ }
+ 
   function fishy(){
-    setView('column is-3 is-offset-1');
+    setView('column is-3 is-offset-2');
     setEdu('column is-0 is-hidden');
     setSkills(' column is-0 is-hidden');
     setBox('null');
@@ -21,7 +29,7 @@ export default function Off () {
 
   function fishy1(){
     setView('column is-0 is-hidden');
-    setEdu('column is-3 is-offset-1');
+    setEdu('column is-3 is-offset-2');
     setSkills('column is-0 is-hidden');
     setBox('null');
     setAbout(['Education','dsdsdsd','sdasdasd']);
@@ -30,7 +38,7 @@ export default function Off () {
   function fishy2(){
     setView('column is-0 is-hidden');
     setEdu('column is-0 is-hidden');
-    setSkills('column is-3 is-offset-1');
+    setSkills('column is-3 is-offset-2');
     setBox('null');
     setAbout(['Skills','dsdsdsd','sdasdasd']);
   }
@@ -59,13 +67,13 @@ export default function Off () {
 
  
 <div className="icon-bar">
-<a href="#" className="facebook"><i className="fa fa-facebook"></i></a>
-<a href="#" className="github"><i className="fa fa-github"></i></a>
-  <a href="#" className="twitter"><i className="fa fa-twitter"></i></a>
-  <a href="#" className="google"><i className="fa fa-google"></i></a>
-  <a href="#" className="linkedin"><i className="fa fa-linkedin"></i></a>
-  <a href="#" className="instagram"><i className="fa fa-instagram"></i></a>
-  <a href="#" className="youtube"><i className="fa fa-youtube"></i></a></div>
+<a href="https://www.facebook.com/" className="facebook"><i className="fa fa-facebook"></i></a>
+<a href="https://github.com/" className="github"><i className="fa fa-github"></i></a>
+  <a href="https://twitter.com/login?lang=en" className="twitter"><i className="fa fa-twitter"></i></a>
+  <a href="https://google.com/" className="google"><i className="fa fa-google"></i></a>
+  <a href="https://www.linkedin.com/login" className="linkedin"><i className="fa fa-linkedin"></i></a>
+  <a href="https://www.instagram.com/" className="instagram"><i className="fa fa-instagram"></i></a>
+  <a href="https://www.youtube.com/" className="youtube"><i className="fa fa-youtube"></i></a></div>
   <section class="section">
     <div class="container">
       <div class="columns ml-6 mt-5">
@@ -79,7 +87,7 @@ export default function Off () {
         </header>
             <div class="card-image">
               <figure class="image is-256x256">
-              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
+              <img src="/reee.jpg" alt="Placeholder image" style={{height:240}}/>
 
               </figure>
               </div>
@@ -104,7 +112,7 @@ export default function Off () {
         </header>
             <div class="card-image">
               <figure class="image is-256x256">
-              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
+              <img src="images.jpg" alt="Placeholder image" style={{height:240}}/>
 
               </figure>
               </div>
@@ -130,7 +138,7 @@ export default function Off () {
         </header>
             <div class="card-image">
               <figure class="image is-256x256">
-              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
+              <img src="/aws-flask-react.png" alt="Placeholder image" style={{height:240}}/>
 
               </figure>
               </div>
@@ -180,10 +188,29 @@ export default function Off () {
 
   </div>
   </div>
+  <div class="column is-5 is-offset-3">
+    {/* <div class="box">
+    <div class="field">
+  <label class="label">Name</label>
+  <div class="control">
+    <input class="input is-success" type="text" placeholder="Text input" onChange={(event)=>setName(event.target.value)}/>
+  <button onClick={submit} >Submit</button>
+  <p class={isvis}>
+    {na}
+  </p>
+  </div>
+
+</div>
+
+
+
+    </div> */}
+
+  </div>
   
 
   <footer class="footer">
-    <p>dfvsdgfdrsgtdg</p>
+    <p class="ml-6">REHAN</p>
   </footer>
        
     </>
