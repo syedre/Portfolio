@@ -75,8 +75,8 @@ export default function Off () {
   <a href="https://www.instagram.com/" className="instagram"><i className="fa fa-instagram"></i></a>
   <a href="https://www.youtube.com/" className="youtube"><i className="fa fa-youtube"></i></a></div>
   <section class="section">
-    <div class="container">
-      <div class="columns ml-6 mt-5">
+    <div class="container" >
+      <div class="columns ml-6 mt-5" >
         <div class={view}>
           <div class="">
         <div class="card">
@@ -95,7 +95,7 @@ export default function Off () {
                 <p>My name is Syed Rehan Ahmed</p>
                 <p>I am React js Developer</p><br/>
                 <p>I am living in Bangalore</p>
-                <button class="button is-outlined  ml-6 mb-2 " onClick={fishy}>View More</button>
+                <button class="button is-outlined is-success ml-6 mb-2 " onClick={fishy}>View More</button>
               </div>
         </div> 
         </div>
@@ -120,7 +120,7 @@ export default function Off () {
                 <p>S J B institute of technology</p>
                 <p>Cambridge PU college</p><br/>
                 <p>Cambridge Public School</p>
-                <button class="button is-outlined ml-6 mb-2 " onClick={fishy1} >View More</button>
+                <button class="button is-success is-outlined ml-6 mb-2 " onClick={fishy1} >View More</button>
               </div>
         </div>
         </div>
@@ -146,7 +146,7 @@ export default function Off () {
                 <p>Html,css,Javascript</p>
                 <p>React js,Next js,Python</p><br/>
                 <p>Aws,Docker</p>
-                <button class="button is-outlined ml-6 mb-2 " onClick={fishy2}>View More</button>
+                <button class="button is-success is-outlined ml-6 mb-2 " onClick={fishy2}>View More</button>
               </div>
         </div> 
         </div>
@@ -209,9 +209,7 @@ export default function Off () {
   </div>
   
 
-  <footer class="footer">
-    <p class="ml-6">REHAN</p>
-  </footer>
+  
        
     </>
   )

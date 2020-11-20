@@ -3,8 +3,9 @@ import React from 'react';
 export default function Aoo () {
     return(
       <>
-        <nav class="navbar  " role="navigation" aria-label="main navigation">
+        <nav class="navbar  " role="navigation" aria-label="main navigation" >
   <div class="navbar-brand">
+  
 
 
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -24,25 +25,11 @@ export default function Aoo () {
         <Link href="/resume">Resume</Link>
       </a>
 
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More
-        </a>
-
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            About
-          </a>
-          <a class="navbar-item">
-            Jobs
-          </a>
-          <a class="navbar-item">
-            Contact
-          </a>
-         
-        </div>
-      </div>
     </div>
+
+    <a class="navbar-item is-justify-content-center" >
+      <img src="rehan.gif" width="112" height="48"/>
+    </a>
 
     <div class="navbar-end">
       <div class="navbar-item">
